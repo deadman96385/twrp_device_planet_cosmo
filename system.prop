@@ -1,0 +1,5 @@
+ro.product.brand=Planet
+ro.product.name=cosmo
+ro.product.device=cosmo
+ro.build.product=cosmo
+ro.treble.enabled=true
