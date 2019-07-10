@@ -1010,6 +1010,7 @@
 		</page>
 
 		<page name="appcheck">
+<!-- Disabled due to this being an OEM twrp
 			<action>
 				<condition var1="tw_app_prompt" var2="1"/>
 				<action function="checkforapp"></action>
@@ -1025,6 +1026,8 @@
 				<action function="page">rebootapp</action>
 			</action>
 
+			<action>
+-->
 			<action>
 				<condition var1="tw_app_install_status" var2="2"/>
 				<action function="reboot">%tw_reboot_param%</action>
@@ -2768,11 +2771,13 @@
 				<text>{@reboot_install_app2=The app can check for new TWRP versions.}</text>
 			</text>
 
+<!-- Disabled due to this being an OEM twrp
 			<checkbox>
 				<placement x="%indent%" y="%row5_y%"/>
 				<text>{@reboot_install_app_prompt_install=Prompt to install TWRP app if not installed}</text>
 				<data variable="tw_app_prompt"/>
 			</checkbox>
+-->
 
 			<checkbox>
 				<condition var1="tw_mount_system_ro" var2="0"/>
