@@ -3366,11 +3366,23 @@
 			</button>
 
 			<button style="main_button">
-				<placement x="%col1_x_left%" y="%row15a_y%"/>
+				<placement x="%col1_x_left%" y="%row11_y%"/>
 				<text>{@adb_sideload_btn=ADB Sideload}</text>
 				<action function="page">sideload</action>
 			</button>
-
+			
+			<button style="main_button">
+				<placement x="%col1_x_left%" y="%row15a_y%"/>
+				<text>{@recovery_unlock=Unlock Dangerous Recovery Features}</text>
+			    <action function="set">tw_back=advanced</action>
+			    <action function="set">tw_text1={@recovery_unlock=Unlock Dangerous features?}</action>
+			    <action function="set">tw_text2={@recovery_unlock_title2=This will wipe all userdata on the device!}</action>
+			    <action function="set">tw_action_text1={@recovery_unlock_text1=Unlocking recovery...}</action>
+			    <action function="set">tw_complete_text1={@recovery_unlock_complete=Recovery unlocked, please reboot to recovery to see changes.}</action>
+			    <action function="set">tw_slider_text={@swipe_to_unlock=Swipe to Unlock}</action>
+			    <action function="page">confirm_action</action>
+			</button>
+			
 			<listbox style="advanced_listbox">
 				<placement x="%center_x%" y="%row2_y%" w="%content_half_width%" h="%fileselector_install_height%"/>
 				<listitem name="{@reload_theme_btn=Reload Theme}">

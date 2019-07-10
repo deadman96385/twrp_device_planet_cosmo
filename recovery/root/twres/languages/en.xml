@@ -719,5 +719,9 @@
 		<string name="include_kernel_log">Include Kernel Log</string>
 		<string name="sha2_chk">Use SHA2 for hashing</string>
 		<string name="unable_set_boot_slot">Error changing bootloader boot slot to {1}</string>
+		<string name="recovery_unlock">Unlock Dangerous Recovery Features</string>
+		<string name="recovery_unlock_title2">This will wipe all userdata on the device!</string>
+		<string name="recovery_unlock_text1">Unlocking recovery...</string>
+		<string name="recovery_unlock_complete">Recovery unlocked, please reboot to recovery to see changes.</string>
 	</resources>
 </language>
