@@ -96,6 +96,9 @@ TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
 TW_NO_SCREEN_BLANK := true
 
+# OEM Mode
+TW_OEM_BUILD := true
+
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_CRYPTO_FS_TYPE := "ext4"
