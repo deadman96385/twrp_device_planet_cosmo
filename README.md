@@ -4,12 +4,6 @@
 
 ![Planet Cosmo Communicator](https://i.imgur.com/RyN5cVo.jpg)
 
-### Specifications
-
-Component Type | Details
--------:|:-------------------------
-TBA
-
 **This device tree can be used to build twrp for Planet Cosmo Communicator**
 
 
